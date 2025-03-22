@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Creative Crafts | Handcrafted Flowers</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <!-- Added Burger Menu for Mobile -->
+                <div class="burger-menu">
+                    <div class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                
+                <div class="logo">
+                    <a href="#">D'Creative Crafts</a>
+                </div>
+                
+                <div class="mobile-nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#products">Our Products</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#products">Our Products</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="cart">
+                        <a href="#" id="cart-icon"><i class="fas fa-shopping-bag"></i><span>0</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <div class="hero-label">HANDCRAFTED FLOWERS</div>
+                    <h1>Artistic Floral<br>Arrangements</h1>
+                    <p>Each flower arrangement is made with attention to detail, offering a unique blend of artistry and elegance.</p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn primary-btn">Shop Now</a>
+                        <a href="#about" class="btn outline-btn">
+                            <span>Learn More</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                   <img src="images/landing_page.jpg" alt="Handcrafted flower bouquet" width="400" height="500">
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-gift"></i></div>
+                        <div class="stat-value">6<span>+</span></div>
+                        <div class="stat-label">Bouquet styles</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-store"></i></div>
+                        <div class="stat-value">1<span>+</span></div>
+                        <div class="stat-label">Store location</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        <div class="stat-value">100<span>+</span></div>
+                        <div class="stat-label">Happy customers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="year-label">SINCE 2024</div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Our Collection</span>
+                <h2>Featured <span class="highlight">Bouquets</span></h2>
+                <p>Explore our most popular floral arrangements, handcrafted with care and perfect for any occasion.</p>
+            </div>
+            
+            <div class="featured-grid">
+                <!-- Featured Item 1 -->
+                <div class="featured-item">
+                    <img src="images/Cherry_Blossom_Bouquet.jpg" alt="Cherry Blossom Bouquet" width="400" height="400">
+                    <div class="featured-overlay">
+                        <h3>Cherry Blossom Bouquet</h3>
+                        <p>₱350</p>
+                    </div>
+                </div>
+
+                <div class="featured-item">
+                    <img src="images/Blue_Berry_Blossom_Bouquet.jpg" alt="Blue Berry Blossom Bouquet" width="400" height="400">
+                    <div class="featured-overlay">
+                        <h3>Blue Berry Blossom Bouquet</h3>
+                        <p>₱300</p>
+                    </div>
+                </div>
+                
+                <div class="featured-item">
+                    <img src="images/Blossom_Symphony_Bouquet.jpg" alt="Blossom Symphony Bouquet" width="400" height="400">
+                    <div class="featured-overlay">
+                        <h3>Blossom Symphony Bouquet</h3>
+                        <p>₱790</p>
+                    </div>
+                </div>
+                
+                <div class="featured-item">
+                    <img src="images/Emerald_Serenity_Bouquet.jpg" alt="Emerald Serenity Bouquet" width="400" height="400">
+                    <div class="featured-overlay">
+                        <h3>Emerald Serenity Bouquet</h3>
+                        <p>₱320</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="product-carousel">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-label">OUR PRODUCTS</div>
+                <h2>Exquisite Blossom Bouquets</h2>
+                <p>Indulge in the charm of fresh, hand-arranged blooms with our Exquisite Blossom Bouquets collection.</p>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-arrow prev-arrow">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="products-carousel">
+                    <!-- Improved product card structure - Buy Now button first for better mobile UX -->
+                    <div class="product-card" data-product-id="cherry-blossom">
+                        <div class="product-badge">Popular</div>
+                        <div class="product-image">
+                            <img src="images/Cherry_Blossom_Bouquet.jpg" alt="Cherry Blossom Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Cherry Blossom Bouquet</h4>
+                            <div class="product-price">₱350</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.5)</span>
+                            </div>
+                            <div class="product-description">Delicate pink blossoms with elegant wrapping.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="blue-berry">
+                        <div class="product-image">
+                            <div class="product-badge">Popular</div>
+                            <img src="images/Blue_Berry_Blossom_Bouquet.jpg" alt="Blue Berry Blossom Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Blue Berry Blossom Bouquet</h4>
+                            <div class="product-price">₱300</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <div class="product-description">Vibrant blue tones with seasonal accents.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="blossom-symphony">
+                        <div class="product-badge">Popular</div>
+                        <div class="product-image">
+                            <img src="images/Blossom_Symphony_Bouquet.jpg" alt="Blossom Symphony Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Blossom Symphony Bouquet</h4>
+                            <div class="product-price">₱790</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <div class="product-description">A harmonious blend of premium blooms.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="emerald-serenity">
+                        <div class="product-badge">Popular</div>
+                        <div class="product-image">
+                            <img src="images/Emerald_Serenity_Bouquet.jpg" alt="Emerald Serenity Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Emerald Serenity Bouquet</h4>
+                            <div class="product-price">₱320</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.2)</span>
+                            </div>
+                            <div class="product-description">Lush greenery with calming accents.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="ethereal-petal">
+                        <div class="product-image">
+                            <img src="images/Ethereal_Petal_Radiance_Bouquet.jpg" alt="Ethereal Petal Radiance Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Ethereal Petal Radiance Bouquet</h4>
+                            <div class="product-price">₱790</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.7)</span>
+                            </div>
+                            <div class="product-description">Soft pastel petals with a radiant glow.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product-id="eternal-sunshine">
+                        <div class="product-badge">New</div>
+                        <div class="product-image">
+                            <img src="images/Eternal_Sunshine_Bouquet.jpg" alt="Eternal Sunshine Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Eternal Sunshine Bouquet</h4>
+                            <div class="product-price">₱320</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.6)</span>
+                            </div>
+                            <div class="product-description">Bright and cheerful yellow blooms.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="barbie-blush">
+                        <div class="product-badge">Popular</div>
+                        <div class="product-image">
+                            <img src="images/Barbie_Blush_Daisy_Bouquet.jpg" alt="Barbie Blush Daisy Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Barbie Blush Daisy Bouquet</h4>
+                            <div class="product-price">₱790</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.6)</span>
+                            </div>
+                            <div class="product-description">Pink daisies with charming presentation.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="lavender-elegance">
+                        <div class="product-image">
+                            <img src="images/Lavender_Elegance_Tulip_Bouquet.jpg" alt="Lavender Elegance Tulip Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="product-info">
+                            <h4>Lavender Elegance Tulip Bouquet</h4>
+                            <div class="product-price">₱350</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.1)</span>
+                            </div>
+                            <div class="product-description">Sophisticated lavender tulips in elegant wrap.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="crimson-charm">
+                        <div class="product-image">
+                            <img src="images/Crimson_Charm_Daisy_Bouquet_(Medium).jpg" alt="Crimson Charm Daisy Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Crimson Charm Daisy Bouquet (Medium)</h4>
+                            <div class="product-price">₱590</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.3)</span>
+                            </div>
+                            <div class="product-description">Rich red daisies in medium arrangement.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="cherry-blossom-delight">
+                        <div class="product-badge">New</div>
+                        <div class="product-image">
+                            <img src="images/Cherry_Blossom_Delight_Daisy_Bouquet_(Large).jpg" alt="Cherry Blossom Delight Daisy Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="product-info">
+                            <h4>Cherry Blossom Delight Daisy Bouquet (Large)</h4>
+                            <div class="product-price">₱480</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <div class="product-description">Large cherry blossom and daisy arrangement.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="verdant-whimsy">
+                        <div class="product-image">
+                            <img src="images/Verdant_Whimsy_Wrapped_Bouquet.jpg" alt="Verdant Whimsy Wrapped Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Verdant Whimsy Wrapped Bouquet</h4>
+                            <div class="product-price">₱450</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                            <div class="product-description">Whimsical green arrangement with special wrap.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <div class="product-card" data-product-id="rose-romance">
+                        <div class="product-image">
+                            <img src="images/Rosé_Romance_Bloom_Bouquet.jpg" alt="Rosé Romance Bloom Bouquet" width="300" height="300">
+                            <div class="product-actions">
+                                <button class="btn buy-btn">Buy Now</button>
+                                <button class="btn cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Rosé Romance Bloom Bouquet</h4>
+                            <div class="product-price">₱350</div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.8)</span>
+                            </div>
+                            <div class="product-description">Romantic rosé blooms perfect for celebrations.</div>
+                            <button class="product-details-btn" aria-label="View product details">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-arrow next-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <div class="carousel-nav">
+                <span class="carousel-dot active"></span>
+                <span class="carousel-dot"></span>
+                <span class="carousel-dot"></span>
+                <span class="carousel-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="product-modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3 id="modal-product-title">Product Title</h3>
+            </div>
+            <div class="modal-body">
+                <div class="modal-product-image">
+                    <img id="modal-product-image" src="https://via.placeholder.com/300x300" alt="Product">
+                </div>
+                <div class="modal-product-info">
+                    <div class="modal-product-price" id="modal-product-price">₱450</div>
+                    <div class="modal-product-rating" id="modal-product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                    </div>
+                    <div class="modal-product-description" id="modal-product-description">
+                        Product description will be displayed here.
+                    </div>
+                    <div class="modal-product-actions">
+                        <button class="btn primary-btn modal-buy-btn">Buy Now</button>
+                        <button class="btn outline-btn modal-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cartModal" class="cart-modal">
+        <div class="cart-modal-content">
+            <span class="close-cart-modal">&times;</span>
+            <h3>Your Cart</h3>
+            <div id="cartItems" class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-buttons">
+                <button class="btn outline-btn" id="clearCartBtn">Clear Cart</button>
+                <button class="btn primary-btn" id="checkoutBtn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="notificationContainer" class="notification-container"></div>
+
+    <section id="contact" class="store-locator">
+        <div class="container">
+            <div class="store-locator-wrapper">
+                <div class="store-content">
+                    <div class="section-label">OUR STORE</div>
+                    <h1>Visit our store in Dipolog City</h1>
+                    
+                    <div class="location-steps">
+                        <div class="location-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Find us at</h4>
+                                <p>Galas Highway, Dipolog City, Zamboanga del Norte</p>
+                                <a href="#" class="copy-link" data-copy="Galas Highway, Dipolog City, Zamboanga del Norte"><i class="fas fa-copy"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="location-step active">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Contact us</h4>
+                                <p>09268371896</p>
+                                <a href="#" class="copy-link" data-copy="09268371896"><i class="fas fa-copy"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="location-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Payment options</h4>
+                                <p>Cash on Delivery (COD), Pickup, GCash</p>
+                                <a href="#" class="copy-link" data-copy="Cash on Delivery (COD), Pickup, GCash"><i class="fas fa-copy"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Contact Us</h3>
+                    <form action="#" method="post" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn primary-btn send-message-btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            
+                <div class="map-title">
+                    <h3>Discover Us in Full Bloom 🌿</h3>
+                    <p>Visit our store in Dipolog City and experience the beauty of our handcrafted flowers in person</p>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.3753535231463!2d123.33399947417546!3d8.55985789148393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32549700043a0fcd%3A0x249ea0843dcfeaeb!2sGalas%20Highway%2C%20Dipolog%20City!5e0!3m2!1sen!2sph!4v1742562574147!5m2!1sen!2sph" 
+                        allowfullscreen 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="container">
+            <div class="about-us-wrapper">
+                <div class="section-header center">
+                    <div class="section-label">ABOUT US</div>
+                    <h2>D'Creatives Crafts 🌸</h2>
+                </div>
+                
+                <div class="about-content-container">
+                    <div class="about-image">
+                        <img src="images/logo.jpg" alt="D'Creative Crafts workshop and handcrafted flowers">
+                    </div>
+                    
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p class="about-intro">At <span class="highlight">D'Creatives Crafts</span>, we believe that every petal tells a story, and every bouquet is a masterpiece. Specializing in handcrafted floral arrangements, we bring artistry and passion to every bloom, creating timeless pieces that capture beauty, emotion, and elegance.</p>
+                            
+                            <p>Our journey began with a love for nature's delicate wonders and a desire to craft floral designs that go beyond the ordinary. Each piece is meticulously handcrafted, blending creativity with the charm of fresh and preserved flowers, ensuring that every arrangement is as unique as the moments they celebrate.</p>
+                            
+                            <p>Whether you're looking for a romantic bouquet, a whimsical floral gift, or a statement arrangement for your special event, <span class="highlight">D'Creatives Crafts</span> is dedicated to bringing your floral dreams to life. With an eye for detail and a heart for artistry, we turn blossoms into breathtaking creations that speak from the soul.</p>
+                        
+                            <!-- Values boxes below text -->
+                            <div class="about-values">
+                                <div class="value-item">
+                                    <div class="value-icon">🌿</div>
+                                    <div class="value-text">Handcrafted with Love</div>
+                                </div>
+                                <div class="value-item">
+                                    <div class="value-icon">💐</div>
+                                    <div class="value-text">Designed to Inspire</div>
+                                </div>
+                                <div class="value-item">
+                                    <div class="value-icon">✨</div>
+                                    <div class="value-text">Blooming with Creativity</div>
+                                </div>
+                            </div>
+                            
+                            <div class="about-cta">
+                                <p class="cta-text">Let us craft something beautiful for you. 💖🌸</p>
+                                <a href="#contact" class="btn primary-btn">Get in Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-wrapper">
+                <div class="testimonials-header">
+                    <h1>Words from Our Bloom Lovers ✨</h1>
+                    <p>Experience the magic through the voices of our cherished customers—where handcrafted elegance meets heartfelt admiration. See why our floral creations are adored for their unique beauty and exquisite craftsmanship. 🌸💖</p>
+                </div>
+                <div class="testimonial-cards">
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="images/wonwoo.jpg" alt="Customer avatar" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-name">Ethan</div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>The Cherry Blossom Bouquet is absolutely stunning! The attention to detail is remarkable, and it looks perfect in my living room.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <img src="images/mingyu.jpg" alt="Customer avatar" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-name">Jasper</div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>I ordered the Blossom Symphony Bouquet for my wife's birthday, and she absolutely loved it. The quality is exceptional, and delivery was prompt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="#">D'Creative Crafts</a>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Our Products</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in touch</h4>
+                    <div class="contact-methods">
+                        <a href="tel:09268371896" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>Call us</span>
+                        </a>
+                        <a href="mailto:buhiajohannejirah@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email us</span>
+                        </a>
+                        <a href="#contact" class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Visit us</span>
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100063477563507" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 D'Creative Crafts | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="index.js"></script>
+</body>
+</html> 
